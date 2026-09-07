@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>buat siti 🌷</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Musik -->
+    <audio id="music" loop>
+        <source src="ssstik.io_1788771866579.mp3" type="audio/mpeg">
+    </audio>
+
+    <button class="music-btn" onclick="toggleMusic()">🎵</button>
+
+    <!-- Background hearts -->
+    <div class="hearts"></div>
+
+    <!-- Opening -->
+    <section class="hero">
+        <div class="content">
+            <p class="small">Hai siti... 👋</p>
+
+            <h1>gua mau ngajak<br><span>lu jalan.</span> 🌷</h1>
+
+            <p class="subtitle">
+                Bukan sesuatu yang serius kok...
+                cuma pengen jalan ama lu jir.
+            </p>
+
+            <button class="start-btn" onclick="scrollToQuestion()">
+                Ada sesuatu buat lu 🤓
+            </button>
+        </div>
+    </section>
+
+
+    <!-- Foto -->
+    <section class="photo-section">
+        <p class="label">plisla jalan ma gua</p>
+        <h2>ga ada maksud lainn...</h2>
+
+        <div class="photo-card">
+            <img src="Please.jpg" alt="Foto">
+        </div>
+
+        <p class="caption">
+            Mungkin bakal biasa aja...
+            tapi kayaknya bakal lebih seru kalo ada lu. :)
+        </p>
+    </section>
+
+
+    <!-- Video -->
+    <section class="video-section">
+        <p class="label">oh iya...</p>
+        <h2>ni kucink dens brajil 🎥</h2>
+
+        <div class="video-card">
+            <video controls playsinline>
+                <source src="ssstik.io_@auramist82_1788774386578 (1).mp4" type="video/mp4">
+                Browser kamu tidak mendukung video.
+            </video>
+        </div>
+    </section>
+
+
+    <!-- Message -->
+    <section class="message-section">
+        <div class="letter">
+            <div class="flower">🌷</div>
+
+            <h2>Jadi...</h2>
+
+            <p>
+                gua sebenarnya udah lama (ga lama juga si) kepikiran buat ngajak lu jalan.
+            </p>
+
+            <p>
+                Nggak perlu acara yang terlalu fancy.
+                Makan, ngobrol, jalan-jalan, apalah...
+                sesimpel itu aja.
+            </p>
+
+            <p>
+                Yang penting kita jalan bareng.
+            </p>
+
+            <div class="line"></div>
+
+            <h3>Gimana?</h3>
+        </div>
+    </section>
+
+
+    <!-- Question -->
+    <section class="question-section" id="question">
+
+        <p class="label">sekarang pertanyaannya...</p>
+
+        <h1>
+            Mau jalan<br>
+            bareng gua?? 🥺
+
+        </h1>
+
+        <div class="buttons">
+            <button class="yes-btn" onclick="sayYes()">
+                Mau ❤️
+            </button>
+
+            <button class="no-btn" id="noBtn" onclick="sayNo()">
+                gamau, lu jelek item buluk dekil miskin 😡
+            </button>
+        </div>
+
+        <p id="response"></p>
+
+    </section>
+
+
+    <!-- Success -->
+    <section class="success-section" id="success">
+
+        <div class="success-card">
+
+            <div class="big-heart">❤️</div>
+
+            <h1>anjaiiii! 🥹</h1>
+
+            <p>
+                Berarti kita jadi jalan ya.
+            </p>
+
+            <p>
+                Tinggal pilih hari dan tempatnya.
+                gua tunggu kabarnya ✨
+            </p>
+
+            <button onclick="restart()">
+                Lihat lagi 😏
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <footer>
+        Made with lop buat siti yang paling kul.
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+```
